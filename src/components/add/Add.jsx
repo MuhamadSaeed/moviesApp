@@ -7,7 +7,7 @@ function Add() {
   
     useEffect(() => {
         const fetchData = async () => {
-          const url = `http://www.omdbapi.com/?s=${value}&apikey=b08bfdf7`;
+          const url = `https://www.omdbapi.com/?s=${value}&apikey=b08bfdf7`;
       
           try {
             const response = await fetch(url);
